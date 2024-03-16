@@ -6,7 +6,10 @@ from PIL import Image
 
 
 model = None
-filepath = "model/basesd_model_new.h5"  # "model/weights.h5"
+
+filepath = "model/basesd_model_new_14_03_dotren.h5"  # 86%
+
+
 class_names = [
     "Airplane",
     "Automobile",

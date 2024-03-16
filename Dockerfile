@@ -1,23 +1,10 @@
-# Використовуємо базовий образ Python з Docker Hub
-FROM python:3
-
-# Встановлюємо робочий каталог контейнера
-WORKDIR /app
-
-# Копіюємо файли з вашого проекту у контейнер
-COPY . /app
-
-# Встановлюємо необхідні пакети за допомогою pip
-RUN pip install --upgrade pip setuptools wheel \
-    pip install --no-use-pep517 scikit-surprise \
-    pip install --no-cache-dir -r requirements.txt
-    # pip install --upgrade pip && \
-    # pip install -r requirements.txt
-
-# Позначимо порт, де працює застосунок всередині контейнера
-EXPOSE 8000
-
-# Запустимо наш застосунок у контейнері
-CMD ["python", "main.py"]
-
-
+# Docker-команда FROM вказує базовий образ контейнера
+# Наш базовий образ - це Linux з попередньо встановленим python-3.10
+FROM python:3.10
+# Скопіюємо інші файли в робочу директорію контейнера
+COPY . .
+EXPOSE 8080
+# Встановимо залежності всередині контейнера
+RUN pip install -r requirements.txt
+# Запустимо наш застосунок всередині контейнера
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080", "--reload"]
