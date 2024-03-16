@@ -8,16 +8,16 @@ from PIL import Image
 model = None
 filepath = "model/basesd_model_new.h5"  # "model/weights.h5"
 class_names = [
-    "Airplane",
-    "Automobile",
-    "Bird",
-    "Cat",
-    "Deer",
-    "Dog",
-    "Frog",
-    "Horse",
-    "Ship",
-    "Truck",
+    "Літак",
+    "Автомобіль",
+    "Птах",
+    "Кіт",
+    "Олень",
+    "Пес",
+    "Жаба",
+    "Кінь",
+    "Корабель",
+    "Вантажівка",
 ]
 
 

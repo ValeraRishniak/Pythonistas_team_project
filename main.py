@@ -8,6 +8,7 @@ import uvicorn
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from html_response import response
+from starlette.responses import HTMLResponse
 
 
 app = FastAPI()
@@ -32,15 +33,16 @@ async def predict_api(file: UploadFile = File(...)):
     """
     The predict_api function is a ReST API that takes an image file as input and returns the predicted class of the image.
 
-
     :param file: UploadFile: Get the uploaded file from the user
-    :return: A string that is the predicted class
+    :return: An HTMLResponse with the prediction result or error message
     """
     for f in os.scandir("static/upload"):
         os.remove(f.path)
-    extension = file.filename.split(".")[-1] in ("jpg", "jpeg", "png")
+
+    extension = file.filename.split(".")[-1] in ("jpg", "jpeg")
     if not extension:
-        raise HTTPException(status_code=404, detail="Image could not be downloaded")
+        return HTMLResponse(content="<p id='upload-message' class='error'>Неправильний формат файлу</p>", status_code=400)
+    
     file_read = await file.read()
     image = read_imagefile(file_read)
     prediction = predict(image)
