@@ -4,6 +4,8 @@ from PIL import Image
 from io import BytesIO
 
 import main
+import sys
+import os
 
 
 client = TestClient(main.app)
@@ -17,6 +19,7 @@ def test_index():
     
     :return: The response of the index page
     """
+    sys.path.append(os.getcwd())
     response = client.get("/")
     assert response.status_code == 200
     assert response.headers["content-type"] == "text/html; charset=utf-8"
@@ -30,6 +33,7 @@ def test_predict_api():
     
     :return: A 200 status code and a content-type of text/html; charset=utf-8
     """
+    sys.path.append(os.getcwd())
     file_data = BytesIO()
     image = Image.new('RGB', size=(32, 32), color=(255, 0, 0))
     image.save(file_data, 'jpeg')
