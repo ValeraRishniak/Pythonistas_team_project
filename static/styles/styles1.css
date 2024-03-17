@@ -1,6 +1,5 @@
 /* CSS-БЛОКИ */
 
-
 /* Малюнок */
 .pos1 {
     width: 870px;
@@ -21,7 +20,7 @@ img {
 h1 {
     font-family: "League Gothic";
     font-size: 300%;
-    color: #FFFF00;
+    color: #460273;
     text-align: center;
     font-style: italic;
     text-transform: uppercase;
@@ -39,15 +38,10 @@ h2 {
     text-transform: uppercase;
 }
 
-/* Колір фону сторінки */
-html,
-body {
-    background: url("/static/images/0.jpg") center center no-repeat fixed;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    margin: 1;
-    padding: 1;
+body>div.container>div:nth-child(7)>a {
+    text-decoration-line: none !important;
+    border: 1px solid black;
+    margin-right: 10px;
 }
 
 /* Форма */
@@ -57,4 +51,20 @@ form {
 
 .button-text-color {
     -webkit-text-fill-color: rgb(255, 0, 0);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.message {
+    font-weight: bold;
+}
+
+.success {
+    color: green !important;
+}
+
+.error {
+    color: red !important;
 }

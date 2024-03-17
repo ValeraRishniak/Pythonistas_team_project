@@ -11,16 +11,16 @@ filepath = "model/basesd_model_new_14_03_dotren.h5"  # 86%
 
 
 class_names = [
-    "Airplane",
-    "Automobile",
-    "Bird",
-    "Cat",
-    "Deer",
-    "Dog",
-    "Frog",
-    "Horse",
-    "Ship",
-    "Truck",
+    "Літак",
+    "Автомобіль",
+    "Птах",
+    "Кіт",
+    "Олень",
+    "Пес",
+    "Жаба",
+    "Кінь",
+    "Корабель",
+    "Вантажівка",
 ]
 
 
