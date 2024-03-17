@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    padding: 50
+    padding-top: 50px;
 }
 
 .container {
@@ -103,17 +103,20 @@ p {
 
 h1 {
     margin-top: 80px;
-    font-size: 400%;
+    font-size: 300%;
 }
 
 body>div.container>input[type=button]{
         padding: 20px;
         border-radius: 25px;
-        position: absolute;
-        top: 75%;
-        left: 40%;
         font-size: 20px;
         font-weight: 700;
+        cursor: pointer;
+        margin-top: 30px;
+}
+body>div.container>input[type=button]:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .imgs {
     width: 31vh;

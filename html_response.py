@@ -24,9 +24,10 @@ def response(filename, prediction):
                         alt="">
                 </div>
                 <h1>Image   Classification</h1>
-                        <input type="button" onclick="history.back();" value="Повернутись на головну сторінку"/>
+                        
                         <p align="center"><img class="pos2" src="/static/upload/{filename}"></p>
                         <h2 align="center">{prediction}</h2>
+                        <input type="button" onclick="history.back();" value="Повернутись на головну сторінку"/>
                 <div class="imgs-container imgs-container-two">
                     <img class="imgs"
                         src="/static/styles/dog.jpg"
