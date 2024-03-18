@@ -204,7 +204,6 @@ Model: "cifar10"
 
 ## Покриття тестами.
 Роботу застосунку було протестовано на працездатність як тестами так і безпосередньо розробниками в якості звичайних користувачів. 
-
 ![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/tests/tests_coverage.png)
 
 
