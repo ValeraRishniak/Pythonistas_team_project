@@ -104,10 +104,11 @@ http://localhost:8080
 
 Эта архитектура модели подходит для задач классификации изображений, особенно в наборе данных CIFAR-10,
 с постепенным уменьшением пространственных размеров за счет слоев свертки и объединения с последующими плотными слоями для классификации.
+'''
 
 Model: "cifar10"
-![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/model/model_info/model_training_and_validation_losses.png)
-'''
+![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/model/model_info/model_info.jpg)
+
 
 ## Результати оцінки моделі.
 
