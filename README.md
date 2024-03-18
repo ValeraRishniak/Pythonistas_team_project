@@ -107,6 +107,7 @@ http://localhost:8080
 '''
 
 Model: "cifar10"
+
 ![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/model/model_info/model_info.jpg)
 
 
