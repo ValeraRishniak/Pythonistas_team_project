@@ -192,8 +192,13 @@ Model: "cifar10"
 
 Графіки показують точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
 
-Покриття тестами 
-![Image](https://github.com/SSP0d/source/blob/main/Test_result.png)
+
+
+
+
+## Покриття тестами.
+Роботу застосунку було протестовано на працездатність як тестами так і безпосередньо розробниками в якості звичайних користувачів. 
+![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/tests/tests_coverage.png)
 
 
 
@@ -202,26 +207,25 @@ Model: "cifar10"
 
 ## Автори
 
-**Рішняк Валерій**  
-GitHub: https://github.com/ValeraRishniak
-LinkedIn: https://www.linkedin.com/in/rishniakvaleriy/
+**Рішняк Валерій - Team lead**  
+GitHub: [ValeraRishniak]https://github.com/ValeraRishniak
+LinkedIn: [rishniakvaleriy]https://www.linkedin.com/in/rishniakvaleriy/
 
-**П'ятковська Вікторія**  
+**П'ятковська Вікторія - scrum master**  
 GitHub:   https://github.com/Vikka777
 LinkedIn: https://www.linkedin.com/in/viktoriia-p-152100211/
 
-**Антон Мещеряков**
-GitHub:   https://github.com/Topsya
-LinkedIn: 
-
-**Сергій Шевченко**  
-GitHub:   https://github.com/Sergey-8057
-LinkedIn: https://www.linkedin.com/in/shevchenko-sergiy/
-
-**Денис Маличок**  
+**Маличок Денис - developer**  
 GitHub:   https://github.com/malychokd
 LinkedIn: https://www.linkedin.com/in/denys-malychok-243520292/
 
+**Мещеряков Антон - developer**
+GitHub:   https://github.com/Topsya
+LinkedIn: 
+
+**Шевченко Сергій - developer**  
+GitHub:   https://github.com/Sergey-8057
+LinkedIn: https://www.linkedin.com/in/shevchenko-sergiy/
 
 
 ## Ліцензія
