@@ -181,6 +181,8 @@ Model: "cifar10"
 
 ## Результати оцінки моделі.
 
+Графіки показують точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
+
 Графік точності  
 ![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/model/model_info/model_training_and_validation_accuracies.png)
 
@@ -190,14 +192,10 @@ Model: "cifar10"
 Результати роботи моделі на тестових даних
 ![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/model/model_info/model_train_and_test_accuracy.png)
 
-Графіки показують точність та втрати моделі на тренувальних, тестових та валідаційних даних протягом навчання.
-
-
-
-
 
 ## Покриття тестами.
 Роботу застосунку було протестовано на працездатність як тестами так і безпосередньо розробниками в якості звичайних користувачів. 
+
 ![Image](https://github.com/ValeraRishniak/Pythonistas_team_project/blob/main/tests/tests_coverage.png)
 
 
@@ -208,24 +206,34 @@ Model: "cifar10"
 ## Автори
 
 **Рішняк Валерій - Team lead**  
-GitHub: [ValeraRishniak]https://github.com/ValeraRishniak
-LinkedIn: [rishniakvaleriy]https://www.linkedin.com/in/rishniakvaleriy/
+GitHub: https://github.com/ValeraRishniak 
+
+LinkedIn: https://www.linkedin.com/in/rishniakvaleriy/ 
+
 
 **П'ятковська Вікторія - scrum master**  
-GitHub:   https://github.com/Vikka777
-LinkedIn: https://www.linkedin.com/in/viktoriia-p-152100211/
+GitHub:   https://github.com/Vikka777 
+
+LinkedIn: https://www.linkedin.com/in/viktoriia-p-152100211/ 
+
 
 **Маличок Денис - developer**  
-GitHub:   https://github.com/malychokd
-LinkedIn: https://www.linkedin.com/in/denys-malychok-243520292/
+GitHub:   https://github.com/malychokd 
+
+LinkedIn: https://www.linkedin.com/in/denys-malychok-243520292/ 
+
 
 **Мещеряков Антон - developer**
-GitHub:   https://github.com/Topsya
-LinkedIn: 
+GitHub:   https://github.com/Topsya 
+
+LinkedIn:  
+
 
 **Шевченко Сергій - developer**  
-GitHub:   https://github.com/Sergey-8057
-LinkedIn: https://www.linkedin.com/in/shevchenko-sergiy/
+GitHub:   https://github.com/Sergey-8057 
+
+LinkedIn: https://www.linkedin.com/in/shevchenko-sergiy/ 
+
 
 
 ## Ліцензія
