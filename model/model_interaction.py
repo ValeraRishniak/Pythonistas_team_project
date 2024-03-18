@@ -64,10 +64,10 @@ def predict(image: Image.Image):
 
 def read_imagefile(file) -> Image.Image:
     """
-    The read_imagefile function takes a file object and returns an Image.Image object.
+    The read_imagefile function reads an image file and returns a Image.Image object.
 
     :param file: Read the image file
-    :return: A pil
+    :return: An image object
     """
     image = Image.open(BytesIO(file))
 
