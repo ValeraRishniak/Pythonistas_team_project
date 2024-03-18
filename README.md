@@ -1,5 +1,14 @@
 # Згорткова нейронна мережа для класифікації зображень (CIFAR-10)
 
+<p align="center">
+   <img src="https://img.shields.io/badge/Language-Python-9cf">
+   <img src="https://img.shields.io/badge/FastAPI-brightgreen">
+   <img src="https://img.shields.io/badge/TensorFlow-2.15-orange">
+   <img src="https://img.shields.io/badge/Pytest-informational">
+   <img src="https://img.shields.io/badge/License-MIT-yellow">
+</p>
+
+## Опис 
 Даний проєкт представляє собою веб-застосунок із використанням згорткової нейронної мережі для класифікації зображень, який створений на навчальній базі датасету CIFAR-10.
 Мета проєкту - навчання моделі та її подальше використання для розпізнавання 10 класів зображень: літаки, автомобілі, птахи, коти, олені, собаки, жаби, коні, кораблі та вантажівки.
 
